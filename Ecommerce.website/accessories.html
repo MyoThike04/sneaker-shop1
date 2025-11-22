@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNEAKER M</title>
+    <style>
+        .header{
+            max-width: 100%;
+            height: 50px;
+            display: flex;
+            justify-items: center;
+            justify-content:space-around;
+            word-spacing: 10px;
+            box-shadow: 0px 2px 10px 2px rgb(169, 168, 168);
+            border-radius: 5px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+            
+        }
+        .nav-bar{
+            max-width: 100%;
+            height: 40px;
+            display: flex;
+            justify-content:space-evenly;
+            justify-items:center;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            background-color: rgb(200, 202, 203);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            box-shadow: 0px 2px 10px 2px rgb(169, 168, 168);
+        }
+            
+
+        
+        
+        .container1{
+            display: flex;
+            justify-content:space-evenly ;
+            margin-bottom: 200px;
+        }
+        .box1{
+            width: 280px;
+            height: 300px;
+            box-shadow: 0px 2px 10px 2px rgb(169, 168, 168);
+        }
+        div img{
+            width: 280px;
+            height: 300px;
+            background-color: aliceblue;
+            transition: 0.5s;
+            mix-blend-mode: multiply;
+        }
+        div img:hover{
+            transform: scale(1.1);
+            z-index: 2;
+        }
+        
+        .container2{
+            display: flex;
+            justify-content:space-evenly ;
+        }
+        .box2{
+            width: 280px;
+            height: 300px;
+            box-shadow: 0px 2px 10px 2px rgb(169, 168, 168);
+        }
+        div button{
+            background-color: rgb(51, 32, 219);
+            color: white;
+            border-radius: 25px;
+        }
+    </style>
+</head>
+
+    <div class="header">
+        <div>
+            <h>SNEAKER M</h>
+        </div>
+        <div>
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
+        <div>
+            <a href="signup.html">Sign Up</a>
+            <a href="login.html">Login</a>
+        </div>
+    </div>
+
+    <div class="nav-bar">
+        <div>
+            <a href="index.html">Home</a>
+        </div>
+        <div>
+            <a href="man.html">Man</a>
+        </div>
+        <div>
+            <a href="woman.html">Woman</a>
+        </div>
+        <div>
+            <a href="shoes.html">Shoes</a>
+        </div>
+        <div>
+            <a href="sneakers.html">Sneakers</a>
+        </div>
+        <div>
+            <a href="accessories.html">Accessories</a>
+        </div>
+    </div>
+
+    <div class="container1">
+        <div class="box1">
+            <img src="data:image/webp;base64,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">
+            <p>Instock Now</p>
+            <p>Adidas Power Backpack</p>
+            <p>Backpack</p>
+            <p>250$</p>
+            <div class="button">
+                 <button>Add to chart</button>
+            </div>
+        </div>
+        <div class="box1">
+            <img src="https://th.bing.com/th/id/OIP.bGzMGFz75_G_V1PPoeVt3QHaHa?w=209&h=209&c=7&r=0&o=7&cb=ucfimg2&dpr=1.5&pid=1.7&rm=3&ucfimg=1">
+            <p>Instock Now</p>
+            <p>Nike Women Pant</p>
+            <p>Pant</p>
+            <p>70$</p>
+            <div class="button">
+                 <button>Add to chart</button>
+            </div>
+        </div>
+        <div class="box1">
+            <img src="https://th.bing.com/th/id/OIP.KZYywFuYVjt4FBnhbGSPUAHaJo?w=164&h=213&c=7&r=0&o=7&cb=ucfimg2&dpr=1.5&pid=1.7&rm=3&ucfimg=1">
+            <p>Instock Now</p>
+            <p>Adidas Hoodie</p>
+            <p>Hoodie</p>
+            <p>90$</p>
+            <div class="button">
+                 <button>Add to chart</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container2">
+        <div class="box2">
+            <img src="https://th.bing.com/th/id/OIP.u1IBx1-wYfZezyc8kUVr8AHaHa?w=208&h=208&c=7&r=0&o=7&cb=ucfimg2&dpr=1.5&pid=1.7&rm=3&ucfimg=1">
+            <p>Instock Now</p>
+            <p>Adidas Gym Pack</p>
+            <p>Backpack</p>
+            <p>40$</p>
+            <div class="button">
+                 <button>Add to chart</button>
+            </div>
+        </div>
+        <div class="box2">
+            <img src="https://th.bing.com/th/id/OIP.-iFdzDq0XWh3YDPaOGgJ5QHaHa?w=197&h=197&c=7&r=0&o=7&cb=ucfimg2&dpr=1.5&pid=1.7&rm=3&ucfimg=1">
+            <p>Instock Now</p>
+            <p>Drew Hoodie</p>
+            <p>Hoodie</p>
+            <p>150$</p>
+            <div class="button">
+                 <button>Add to chart</button>
+            </div>
+        </div>
+        <div class="box2">
+            <img src="https://th.bing.com/th/id/OIP.B1D937xMGsE839AewYF8RAHaHa?w=201&h=201&c=7&r=0&o=7&cb=ucfimg2&dpr=1.5&pid=1.7&rm=3&ucfimg=1">
+            <p>Instock Now</p>
+            <p>Batman X Crocs</p>
+            <p>Shoes</p>
+            <p>300$</p>
+            <div class="button">
+                 <button>Add to chart</button>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
